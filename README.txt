@@ -5,4 +5,4 @@ INSTRUCTIONS:
 4. Run code, UI is CLI
 
 NOTES:
-* ticketReader uses simple username/password authentication. ticketTester, however, reads in my personal information from my own environmental variables. when running the test code, you'll either have to create your own environment variables according to the names specified in the code (ZCC_SUBDOMAIN, ZCC_USER, etc.) or rewrite the variables to fit your account credentials
+* ticketReader uses simple username/password authentication. ticketTester, however, reads in my information from my own environmental variables which will not work on my machine. when running the test code, you'll either have to create your own environment variables according to the names specified in the code (ZCC_SUBDOMAIN, ZCC_USER, etc.) or rewrite the variables to fit your Zendesk account credentials
